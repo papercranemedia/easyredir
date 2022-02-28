@@ -1,0 +1,78 @@
+// Phone Styling
+
+
+.nav__bar {
+    display:flex;
+    flex-direction: horizontal;
+    align-items:center;
+    justify-content:space-between;
+    padding: 0.5rem 4%;
+}
+
+.nav__right-container {
+    display:flex;
+    flex-direction:row-reverse;
+    
+}
+
+.nav__bar .--orange-button, .nav__sign-in, .nav__dt-logo {
+    display:none;
+}
+
+
+
+.nav__mob-logo {
+    width: 38px;
+}
+
+
+
+.nav__link-container {
+    position: fixed;
+    top:0;
+    // Temporarily hide
+    display:none;
+}
+
+
+.nav__lottie-block {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    background-color: $yellow;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+// Tablet Styling
+@media (min-width: $breakpoint-sm) {
+    
+    
+}
+
+
+// Small Screen Styling
+@media (min-width: $breakpoint-md) {
+    
+    
+}
+
+
+// Desktop Styling
+@media (min-width: $breakpoint-lg) {
+    
+    
+}
+
+
+// Desktop Styling
+@media (min-width: $breakpoint-xl) {
+    
+    
+}
+

@@ -1,0 +1,54 @@
+body {
+    line-height:1.63056;
+}
+
+h1, .h1, .h2, .h3, .h4, .h6, h1, h2, h3, h4, h6 {
+    font-family: "Adonis", serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h1, .h1 {
+    font-size: 2.375rem;
+}
+
+h2, .h2 {
+    font-size: 1.5rem;    
+}
+
+h3, .h3 {
+    font-size: 1.75rem;    
+}
+
+h4, .h4 {
+    font-size: 1.125rem;    
+}
+
+h5, .h5 {
+    font-size: 1rem;    
+}
+
+h6, .h6 {
+    font-size: 0.75rem;    
+}
+
+a {
+    text-decoration:none;
+    color: $green;
+    transition: color 0.15s;
+    &:hover {
+        text-decoration:underline;
+        color: $dgreen;
+    }
+}
+
+section {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.container {
+    width: 1200px;
+    max-width: 92%;
+}

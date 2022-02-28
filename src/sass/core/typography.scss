@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Avenir';
+    src: local('MyFont'), url(../../../src/fonts/AvenirNextLTPro-Regular.woff2) format('woff2');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+body {
+    font-family: "Avenir", serif;
+    font-size: 16px;
+}
